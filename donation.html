@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="donation.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome, Donor!</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Make a Donation</h2>
+      <form id="donation-form" action="new2.php" method="post">
+        <div class="form-group">
+          <label for="DonorName">Your Name:</label>
+          <input type="text" placeholder="Enter donor name" name="DonorName" required>
+        </div>
+
+      
+        <div class="form-group">
+          <label for="ItemName">Item Name:</label>
+          
+          <select id="ItemName" required>
+            <option value="">Select an item</option>
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="ItemQuantity">Number of Items:</label>
+          <input type="number" id="ItemQuantity" required>
+        </div>
+        
+        
+        
+        
+        <div class="form-group">
+            <label for="DonorAddress">Address:</label>
+            <input type="text" id="DonorAddress" required>
+        </div>
+        
+        
+        
+          
+       
+         
+
+        <a href="bruh.html">  
+        <button type="submit">Donate</button>
+        </a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- <script src="donation.js"></script> -->
+</body>
+</html>

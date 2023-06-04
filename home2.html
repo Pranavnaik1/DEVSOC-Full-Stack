@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPhilanthropy - The donation website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(61, 205, 133);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: black;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: black;
+      font-size: 1.2rem;
+    }
+
+    main hr {
+      border: 0;
+      background: #000006;
+      height: 1.2px;
+      margin: 60px 84px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .firstSection {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 130px 0;
+    }
+    .firstSection > div {
+      width: 30%;
+    }
+
+    .leftSection {
+      font-size: 4rem;
+    }
+    .leftSection .buttons{
+      padding: 50px 0;
+    }
+    .leftSection .btn{
+      padding: 12px;
+      background: #5e5e60;
+      color: rgb(170, 107, 228);
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .RightSection img {
+      width: 100%;
+    }
+    .purple {
+      color: rgb(170, 107, 228);
+    }
+    .text-grey {
+      color: gray;
+      font-size: large;
+    }
+    #element {
+      color: rgb(170, 107, 228);
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+      background-color: aquamarine;
+      animation: backgroundAnimation 10s linear infinite;
+    }
+
+    /* {
+      margin: 0;
+      padding: 0;
+    } */
+
+    body {
+      animation: backgroundAnimation 10s ease-in-out infinite alternate;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    @keyframes backgroundAnimation {
+      0% {
+        background-color: rgb(61, 205, 133);
+      }
+      50% {
+        background-color: rgb(52, 152, 219);
+      }
+      100% {
+        background-color: rgb(61, 205, 133);
+      }
+    }
+
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+    .secondSection .box {
+      background: white;
+      width: 73vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 100px;
+    }
+
+    .card-columns {
+      display: flex;
+      justify-content: space-between;
+      max-width: 500px;
+    }
+
+    .card {
+      width: 200px;
+      height: 320px;
+      margin: 20px;
+      border: 3px solid gray;
+      padding: 60px;
+      background-color: black;
+    }
+
+    .card-img-top {
+      max-height: 100px;
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+
+    .card-text {
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #0e0e1a;
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul{
+      list-style: none;
+    }
+
+    .footer > div{
+      width: 223px;
+    }
+
+    footer .footer-rights{
+      text-align: center;
+      color: gray;
+      padding: 12px 0;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">MyPhilanthropy</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">My Profile</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Welcome Here
+          <span class="purple">Share</span>
+          <div>And Donate</div>
+
+          <span id="element"></span>
+          <a href="h2.html">
+          <button class="btn">Donor</button>
+          </a>
+          <a href="h (5).html">
+          <button class="btn">Organisation</button>
+          </a>
+        </div>
+        <div class="RightSection">
+          <img src="carton_png-PhotoRoom.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-grey">Testimonials</span>
+        <h1></h1>
+        <div class="card-columns">
+          <div class="card">
+            <img class="card-img-top" src="girl2.png" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Amaira Naik</h5>
+              <p class="card-text">The change needs to happen and this way its gonna be great!</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="girl3.png" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Tia Malhotra</h5>
+              <p class="card-text">These are the small changes that would quantify for big impact.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="girl4.jpeg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Deepika Jain</h5>
+              <p class="card-text">It felt so happy yet so simple. Grateful to have been able to help.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--<section class="secondSection">
+        <span class="text-grey">People helped so far</span>
+        <h1></h1>
+            <div>
+                <div class = vertical>
+                    <img class = "image-top" src = "girl2.png" alt = "" />
+                    <div class = "vertical-desc">
+                        <div class = "vertical-title">Amaira Naik</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+                <div class = vertical>
+                    <img class = "image-top" src = "girl3.png" alt = "" />
+                    <div class = "vertical-desc">
+                        <div class = "vertical-title">Tia Naik</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+                <div class = vertical>
+                    <img class = "image-top" src = "girl4.jpeg" alt = "" />
+                    <div class = "vertical-desc">
+                        <div class = "vertical-title">Waifu Naik</div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                </div>
+            </div>-->
+
+       <!-- <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="cbse.png" alt="" />
+            <div class="vertical-title">Class XII CBSE (2022)</div>
+            <div class="vertical-desc">
+              Completed my 12th grade education in Lawrence and Mayo Public
+              School in Ajmer,Rajasthan. Secured a good 94.4%.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="vit.png" alt="" />
+            <div class="vertical-title">VIT Vellore(2022)</div>
+            <div class="vertical-desc">
+              Pursuing B.Tech Computer Science and Engineering. Scored 9.36 CGPA
+              in my first semester.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="imun.png" alt="" />
+            <div class="vertical-title">IMUN Campus Ambassador</div>
+            <div class="vertical-desc">
+              I served as a campus ambassador for VIT Vellore. Learnt Social
+              Media Marketing and networking skills.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="figma.png" alt="" />
+            <div class="vertical-title">Graphic Design</div>
+            <div class="vertical-desc">
+              Started with graphic design using canva and figma. Made projects
+              for clubs and chapters.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="solidity.png" alt="" />
+            <div class="vertical-title">WEB3 solidity</div>
+            <div class="vertical-desc">
+              Learning basics of Solidity programming language and made smart
+              contract.
+            </div>
+          </div>
+        </div>
+    -->
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first">
+          <h3>These Small Steps Bring Big Smiles.</h3>
+        </div>
+        <div class="second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+              </ul>
+        </div>
+        <div class="fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+              </ul>
+        </div>
+      </div>
+      <div class="footer=rights">
+        Copyright &#169; www.MyPhilanthropy.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!--SEtup and start animation-->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Clothes",
+          "Instruments",
+          "Toys",
+          "Belongings",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
